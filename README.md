@@ -32,19 +32,32 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
+module exp2(a,b,c,d,f1,w,x,y,z,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
+assign f2=((~y&z)|(x&y)|(w&y));
+endmodule
+```
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+Developed by: RegisterNumber:*/24900228
 
 
 **RTL realization**
+THE LOGIC GATES ARE STUDIED AND THE RTL OUTPUT IS VERIFIED
 
 **Output:**
 
 **RTL**
+![Screenshot (2)](https://github.com/user-attachments/assets/7a1a15ce-76e4-4b64-90dd-25cc081b4af1)
+
+
 
 **Timing Diagram**
+
+![Screenshot (4)](https://github.com/user-attachments/assets/81cf210a-11ab-4196-ad36-91377c1e6fd0)
+
 
 **Result:**
 
