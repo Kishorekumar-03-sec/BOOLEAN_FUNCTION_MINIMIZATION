@@ -43,7 +43,8 @@ assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 ```
 
-Developed by: RegisterNumber:*/24900228
+Developed by:KishorekumarS
+RegisterNumber:*/24900228
 
 
 **RTL realization Output:**
